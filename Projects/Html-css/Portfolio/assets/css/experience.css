@@ -1,0 +1,62 @@
+
+body {
+    background-color: var(--first-back);
+    font-family: var(--font-primary);
+    height: 100%;
+}
+.container__content__presentation_tech {
+    padding: 20px;
+    background-color: var(--back-profile);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    height: 490px;
+    border-radius: 20px;
+    border: 0.5px solid var(--second-back);
+    color: var(--color-text-profile);
+    z-index: 2;
+}
+.container__content__presentation_experience {
+    padding: 20px;
+    background-color: var(--back-profile);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    height: 490px;
+    border-radius: 20px;
+    border: 0.5px solid var(--second-back);
+    color: var(--color-text-profile);
+    z-index: 1;
+}
+
+
+.buttons__logos{
+    width: 130px;
+    height: 65px;
+}
+.campusland__image{
+    width: 130px;
+    height: 130px;
+}
+.buttons_experience a>img:hover {
+    transform: scale(1.2);
+}
+.icons_languages{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.icons_languages img{
+    width: 24%;
+    height: auto;
+    object-fit: contain;
+}
+.icons_languages img:hover{
+    transform: scale(1.5);
+}
+

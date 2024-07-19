@@ -1,0 +1,5 @@
+body {
+    background-color: var(--first-back);
+    font-family: var(--font-primary);
+    height: 100vh;
+}
